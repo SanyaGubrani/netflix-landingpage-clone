@@ -324,3 +324,58 @@ h1{
     margin-bottom: 10px;
 }
 
+/* Links */
+
+.links{
+    font-size: 12px;
+    padding: 35px 0;
+    height: 500px;
+    color: rgba(224, 217, 217, 0.814);
+}
+
+.inner-links{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.inner-links li{
+    line-height: 2.7;
+}
+
+.links p{
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.links p a{
+    font-size: 22px;
+}
+
+
+.links a{
+    text-decoration: underline 1px rgba(255, 255, 255, 0.861);
+    color: rgba(224, 217, 217, 0.814);
+}
+
+.inner-links ul:nth-of-type(5) li:nth-of-type(1) {
+    border: 1px solid rgba(255, 255, 255, 0.502);
+    background: rgba(0, 0, 0, 0.656);
+    height: 38px;
+    border-radius: 5px; 
+    width: 130px;
+    padding-left: 15px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inner-links ul:nth-of-type(5) li:nth-of-type(1) a{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
