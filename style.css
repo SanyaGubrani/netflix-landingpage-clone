@@ -1,10 +1,10 @@
-/*Global*/
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/*Global*/
 
 .body {
     font: 16px/1.5;
@@ -55,10 +55,10 @@ h1{
 }
 
 
-/*Showcase-1*/
+/*Main-Area*/
 
 
-.showcase-1{
+.main-area{
     color: white;
     background-image: url('images/showcase.jpg');
     height: 800px;
@@ -68,7 +68,7 @@ h1{
     background-size: 123%;
 }
 
-.showcase-1::after {
+.main-area::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -127,7 +127,7 @@ h1{
     padding: 7px 25px;
 }
 
-.inner-content{
+.main-content{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@ h1{
     z-index: 2;
 }
 
-.inner-content p{
+.main-content p{
     font-size: 21px;
     padding: 10px;
     font-weight: 500;
@@ -146,7 +146,7 @@ h1{
     letter-spacing: 0.05em;
 }
 
-.inner-content p:nth-of-type(1){
+.main-content p:nth-of-type(1){
     font-size: 24px;
     margin-bottom: 13px;
     letter-spacing: 0.09em;
@@ -185,9 +185,9 @@ h1{
 }
 
 
-/* Showcase-2 */
+/* Showcase-1 */
 
-.showcase-2{
+.showcase-1{
     background-color: #000000;
     color: white;
     height: 700px;
@@ -195,25 +195,74 @@ h1{
     border-bottom: 10px solid rgb(69, 67, 67);
 }
 
-.inner-content-2{
+.inner-content-1{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.inner-content-2 div{
-    margin-top: 55px;
-}
 
-.inner-content-2 div:nth-of-type(1){
+.inner-content-1 div:nth-of-type(1){
     margin-left: 50px;
     padding: 5px;
     width: 40%;
 }
 
-.inner-content-2 div:nth-of-type(1) p{
-    margin-top: 30px;
+.inner-content-1 div:nth-of-type(1) p{
+    margin-top: 25px;
     font-size: 25px;
     flex-wrap: wrap;
     text-align: start;
 }
+
+.inner-content-1 div:nth-of-type(2){
+    width: 40%;
+    margin-top: 150px;
+}
+
+/* Showcase-2 */
+
+.inner-content-2{
+   padding: 50px;
+}
+
+.inner-content-2 div{
+    margin-top: 70px;
+}
+
+.inner-content-2 div:nth-of-type(1) img{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.inner-content-2 div:nth-of-type(2){
+    width: 45%;
+    margin-bottom: 180px;
+}
+
+.inner-content-2 div:nth-of-type(2) h1{
+    margin-bottom: 20px;
+}
+
+.inner-content-2 div:nth-of-type(2) p{
+    font-size: 25px;
+}
+
+/* Showcase-3 */
+
+.inner-content-3{
+    padding-top: 100px;
+    padding-right: 30px;
+}
+
+.inner-content-3 div:nth-of-type(1) {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.inner-content-3 img {
+    padding-left:40px ;
+    padding-bottom: 20px;
+}
+
+/* Showcase-4 */
