@@ -1,6 +1,6 @@
 # Netflix-Landing Page-Clone
 This is a netflix landing page clone built using HTML and CSS.
-Output: 
+Sample Output: 
 
 ![Image 1](images/Output1.png)
 ![Image 2](images/output2.png)
